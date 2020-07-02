@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Card, CardHeader, CardBody, CardTitle, Row, Col } from "reactstrap";
+import { Card, CardBody, Row, Col } from "reactstrap";
 
 class About extends React.Component {
   render() {
@@ -125,6 +125,7 @@ class About extends React.Component {
                   </h5>
                   <img
                     className="img-fluid"
+                    alt=""
                     src={require("assets/img/codeMeme.png")}
                   />
                   </div>
@@ -135,13 +136,13 @@ class About extends React.Component {
                   <div className="typography-line">
                     <span>Resources and Licensing</span>
                     <p>
-                    This react app was built using <span> <a href="https://www.creative-tim.com/product/black-dashboard-react" targer="_blank" className="text-info" >Creative Tim's Black Dashboard - React Template</a> </span> and my own DSA code.
+                    This react app was built using <span> <a href="https://www.creative-tim.com/product/black-dashboard-react" target="_blank" rel="noopener noreferrer" className="text-info" >Creative Tim's Black Dashboard - React Template</a> </span> and my own DSA code.
                     <br>
                     </br>
                     You'll find license details in the project folder along with links to original sources.
                     <br>
                     </br>
-                    If you have any questions or would like to contribute to this page, visit my site for contact details <span> <a href="https://jrchan.ca/" target="_blank" className="text-info">Jrchan.ca</a> </span>
+                    If you have any questions or would like to contribute to this page, visit my site for contact details <span> <a href="https://jrchan.ca/" target="_blank" rel="noopener noreferrer" className="text-info">Jrchan.ca</a> </span>
                     </p>
                     <br>
                     </br>
@@ -149,7 +150,7 @@ class About extends React.Component {
                   <div className="typography-line">
                     <span>Source Code</span>
                     <p>
-                      Head over to my <span> <a href="https://github.com/jrchan84/VisSort" target="_blank" className="text-info">repository</a> </span> if you'd like to play around with the template and code.
+                      Head over to my <span> <a href="https://github.com/jrchan84/VisSort" target="_blank" rel="noopener noreferrer" className="text-info">repository</a> </span> if you'd like to play around with the template and code.
                     </p>
                     <ol>
                       <li>Download the zip and export it to your working directory.</li>
@@ -162,7 +163,7 @@ class About extends React.Component {
                       A browser window should open and your app will display. Happy Coding!
                       <br>
                       </br>
-                      Oh, and click <span> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" className="text-info">this</a> </span> if you want to ace your next exam.
+                      Oh, and click <span> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" className="text-info">this</a> </span> if you want to ace your next exam.
                     </p>
                   </div>
                 </CardBody>
