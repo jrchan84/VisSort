@@ -20,7 +20,7 @@ import React from "react";
 // reactstrap components
 import { Card, CardHeader, CardBody, Row, Col } from "reactstrap";
 
-class Icons extends React.Component {
+class DataStructures extends React.Component {
   render() {
     return (
       <>
@@ -1148,4 +1148,4 @@ class Icons extends React.Component {
   }
 }
 
-export default Icons;
+export default DataStructures;

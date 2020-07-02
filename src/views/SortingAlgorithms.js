@@ -32,7 +32,7 @@ import {
   Col
 } from "reactstrap";
 
-class Notifications extends React.Component {
+class SortingAlgorithms extends React.Component {
   notify = place => {
     var color = Math.floor(Math.random() * 5 + 1);
     var type;
@@ -245,4 +245,4 @@ class Notifications extends React.Component {
   }
 }
 
-export default Notifications;
+export default SortingAlgorithms;

@@ -20,7 +20,7 @@ import React from "react";
 // reactstrap components
 import { Card, CardHeader, CardBody, CardTitle, Row, Col } from "reactstrap";
 
-class Typography extends React.Component {
+class OtherResources extends React.Component {
   render() {
     return (
       <>
@@ -214,4 +214,4 @@ class Typography extends React.Component {
   }
 }
 
-export default Typography;
+export default OtherResources;

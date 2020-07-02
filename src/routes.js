@@ -15,62 +15,54 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import Dashboard from "views/Dashboard.js";
-import Icons from "views/Icons.js";
-import Map from "views/Map.js";
-import Notifications from "views/Notifications.js";
-import TableList from "views/TableList.js";
-import Typography from "views/Typography.js";
-import UserProfile from "views/UserProfile.js";
+import About from "views/About.js";
+import DataStructures from "views/DataStructures.js";
+import TreeTraversals from "views/TreeTraversals.js";
+import SortingAlgorithms from "views/SortingAlgorithms.js";
+import PathFindingAlgorithms from "views/PathFindingAlgorithms.js";
+import OtherResources from "views/OtherResources.js";
 
 var routes = [
   {
-    path: "/dashboard",
-    name: "Dashboard",
-    icon: "tim-icons icon-chart-pie-36",
-    component: Dashboard,
+    path: "/about",
+    name: "About",
+    icon: "tim-icons icon-badge",
+    component: About,
     layout: "/admin"
   },
   {
-    path: "/icons",
-    name: "Icons",
-    icon: "tim-icons icon-atom",
-    component: Icons,
+    path: "/datastructures",
+    name: "Data Structures",
+    icon: "tim-icons icon-coins",
+    component: DataStructures,
     layout: "/admin"
   },
   {
-    path: "/map",
-    name: "Map",
-    icon: "tim-icons icon-pin",
-    component: Map,
+    path: "/treetraversals",
+    name: "Tree Traversals",
+    icon: "tim-icons icon-user-run",
+    component: TreeTraversals,
     layout: "/admin"
   },
   {
-    path: "/notifications",
-    name: "Notifications",
-    icon: "tim-icons icon-bell-55",
-    component: Notifications,
+    path: "/sortingalgorithms",
+    name: "Sorting Algorithms",
+    icon: "tim-icons icon-chart-bar-32",
+    component: SortingAlgorithms,
     layout: "/admin"
   },
   {
-    path: "/user-profile",
-    name: "User Profile",
-    icon: "tim-icons icon-single-02",
-    component: UserProfile,
-    layout: "/admin"
-  },
-  {
-    path: "/tables",
-    name: "Table List",
+    path: "/pathfindingalgorithms",
+    name: "Path Finding Algorithms",
     icon: "tim-icons icon-puzzle-10",
-    component: TableList,
+    component: PathFindingAlgorithms,
     layout: "/admin"
   },
   {
-    path: "/typography",
-    name: "Typography",
-    icon: "tim-icons icon-align-center",
-    component: Typography,
+    path: "/otherresources",
+    name: "Other Resources",
+    icon: "tim-icons icon-bullet-list-67",
+    component: OtherResources,
     layout: "/admin"
   }
 ];

@@ -28,7 +28,7 @@ import {
   Col
 } from "reactstrap";
 
-class Tables extends React.Component {
+class PathFindingAlgorithms extends React.Component {
   render() {
     return (
       <>
@@ -168,4 +168,4 @@ class Tables extends React.Component {
   }
 }
 
-export default Tables;
+export default PathFindingAlgorithms;

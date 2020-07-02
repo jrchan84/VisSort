@@ -12,6 +12,6 @@ Special thanks go for the owners of these plugins:
 - [React Chartjs](http://jerairrest.github.io/react-chartjs-2/) for the wonderful wrapper for charts.
 - [Chartjs](https://www.chartjs.org/) for the wonderful charts.
 
-#VisSort
+# VisSort
 
 This is a passion project of mine to develop my frontend skills and revisit DSA topics I've learned in the past. Hopefully current UBC CPSC221 students and others will find it helpful :D

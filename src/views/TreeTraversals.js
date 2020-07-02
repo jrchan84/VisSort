@@ -283,7 +283,7 @@ const MapWrapper = withScriptjs(
   ))
 );
 
-class Map extends React.Component {
+class TreeTraversals extends React.Component {
   render() {
     return (
       <>
@@ -315,4 +315,4 @@ class Map extends React.Component {
   }
 }
 
-export default Map;
+export default TreeTraversals;
