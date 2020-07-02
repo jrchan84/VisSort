@@ -30,10 +30,10 @@ class Footer extends React.Component {
         <Container fluid>
           <Nav>
             <NavItem>
-              <NavLink href="https://www.creative-tim.com/?ref=bdr-user-archive-footer">Justin Chan</NavLink>
+              <NavLink href="https://www.jrchan.ca/">Justin Chan</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://www.creative-tim.com/presentation?ref=bdr-user-archive-footer">About</NavLink>
+              <NavLink href="">About</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://www.creative-tim.com/blog?ref=bdr-user-archive-footer">GitHub</NavLink>
