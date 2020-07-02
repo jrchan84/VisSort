@@ -30,17 +30,14 @@ class Footer extends React.Component {
         <Container fluid>
           <Nav>
             <NavItem>
-              <NavLink href="https://www.jrchan.ca/">Justin Chan</NavLink>
+              <NavLink href="https://www.jrchan.ca/" target="_blank">Jrchan.ca</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">About</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://www.creative-tim.com/blog?ref=bdr-user-archive-footer">GitHub</NavLink>
+              <NavLink href="https://github.com/jrchan84/VisSort" target="_blank">GitHub</NavLink>
             </NavItem>
           </Nav>
           <div className="copyright">
-            © {new Date().getFullYear()} JRC
+            © VisSort {new Date().getFullYear()}
           </div>
         </Container>
       </footer>

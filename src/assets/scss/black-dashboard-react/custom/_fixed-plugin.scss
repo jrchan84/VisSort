@@ -3,10 +3,10 @@
     right: 0;
     width: 64px;
     background: rgba(0,0,0,.3);
-    z-index: 1031;
+    z-index: 9999;
     border-radius: 8px 0 0 8px;
     text-align: center;
-    top: 130px;
+    top: 17px;
 
     li > a,
     .badge{
@@ -23,12 +23,12 @@
     }
 
     .dropdown-menu{
-        right: 80px;
+        right: 0px;
         left: auto !important;
-        top: -52px !important;
+        top: 60px !important;
         width: 290px;
         border-radius: 0.1875rem;
-        padding: 0 10px;
+        padding: 10 10 10 10px;
         background: linear-gradient($black, $black-states);
     }
 
