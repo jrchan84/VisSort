@@ -37,14 +37,25 @@ class PathFindingAlgorithms extends React.Component {
             <Col md="12">
               <Card>
                 <CardHeader>
-                  <h5 className="title">100 Awesome Nucleo Icons</h5>
-                  <p className="category">
-                    Handcrafted by our friends from{" "}
-                    <a href="https://nucleoapp.com/?ref=1712">NucleoApp</a>
+                <h4 className="text-danger">Path Finding Algorithms</h4>
+                <blockquote>
+                  <p className="blockquote">
+                    Sorting algorithms are typically used to transform data in a list or array to a preferred order to be used later.
+                    For example, programmers often sort a list to optimize the efficency of other algorithms such as search or merge.
+                    We'll go over what each sort looks visually and their respective running times and applications.
+                    <br>
+                    </br>
+                    <br>
+                    </br>
+                    <ul className="list-inline">
+                      <li className="list-inline-item" style={{marginRight: 30}}> <span className="text-danger">Dijkstra's</span> Shortest Path First Algorithm</li>
+                      <li className="list-inline-item" style={{marginRight: 30}}><span className="text-danger">Prim's</span> Greedy Algorithm</li>
+                      <li className="list-inline-item" style={{marginRight: 30}}><span className="text-danger">A*</span> Path Search Algorithm</li>
+                      <li className="list-inline-item" style={{marginRight: 30}}><span className="text-danger">D*</span> Incremental Search Algorithm</li>
+                    </ul>
                   </p>
+                </blockquote>
                 </CardHeader>
-                <CardBody className="all-icons">
-                </CardBody>
               </Card>
             </Col>
           </Row>

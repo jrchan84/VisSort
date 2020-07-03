@@ -55,26 +55,24 @@ class About extends React.Component {
                     <h4 className="text-info">
                       Included DSA Topics:
                     </h4>
-                    <Row>
-                      <Col className="col-xs-4">
+                    <ul className="list-inline">
+                      <li className="list-inline-item align-top" style={{marginRight: 30}}>
                         <ul>
                           <li className="text-success">Data Structures</li>
-                          <li className="list-unstyled">
-                            <ul>
-                              <li>Arrays</li>
-                              <li>Linked Lists</li>
-                              <li>Stacks</li>
-                              <li>Queues</li>
-                              <li>Hash Tables</li>
-                              <li>Trees</li>
-                              <li>Heaps</li>
-                              <li>Sets</li>
-                              <li>Graphs</li>
-                            </ul>
-                          </li>
+                          <ul>
+                            <li>Arrays</li>
+                            <li>Linked Lists</li>
+                            <li>Stacks</li>
+                            <li>Queues</li>
+                            <li>Hash Tables</li>
+                            <li>Trees</li>
+                            <li>Heaps</li>
+                            <li>Sets</li>
+                            <li>Graphs</li>
+                          </ul>
                         </ul>
-                      </Col>
-                      <Col className="col-xs-4">
+                      </li>
+                      <li className="list-inline-item align-top" style={{marginRight: 30}}>
                         <ul>
                           <li className="text-warning">Tree Traversals</li>
                           <li className="list-unstyled">
@@ -84,8 +82,8 @@ class About extends React.Component {
                             </ul>
                           </li>
                         </ul>
-                      </Col>
-                      <Col className="col-xs-4">
+                      </li>
+                      <li className="list-inline-item align-top" style={{marginRight: 30}}>
                         <ul>
                           <li className="text-primary">Sorting Algorithms</li>
                           <li className="list-unstyled">
@@ -99,8 +97,8 @@ class About extends React.Component {
                             </ul>
                           </li>
                         </ul>
-                      </Col>
-                      <Col className="col-xs-4">
+                      </li>
+                      <li className="list-inline-item align-top" style={{marginRight: 30}}>
                         <ul>
                           <li className="text-danger">Path-Finding Algorithms</li>
                           <li className="list-unstyled">
@@ -112,8 +110,8 @@ class About extends React.Component {
                             </ul>
                           </li>
                         </ul>
-                      </Col>
-                    </Row>
+                      </li>
+                    </ul>
                   </div>
                   <br>
                   </br>

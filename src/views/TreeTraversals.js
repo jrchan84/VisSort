@@ -16,13 +16,6 @@
 
 */
 import React from "react";
-// react plugin used to create google maps
-import {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  Marker
-} from "react-google-maps";
 
 // reactstrap components
 import { Card, CardHeader, CardBody, Row, Col } from "reactstrap";
@@ -37,14 +30,38 @@ class TreeTraversals extends React.Component {
             <Col md="12">
               <Card>
                 <CardHeader>
-                  <h5 className="title">100 Awesome Nucleo Icons</h5>
-                  <p className="category">
-                    Handcrafted by our friends from{" "}
-                    <a href="https://nucleoapp.com/?ref=1712">NucleoApp</a>
+                <h4 className="text-warning">Tree Traversals</h4>
+                <blockquote>
+                  <p className="blockquote">
+                    Traversals (graph traverals) are used to recursively visit each of the nodes in a tree structure in a particular order.
+                    Theres a wide array of reasons why we want to do this. For example, to count the nodes in a tree, search for
+                    a given value, detect imbalances, ect. Traversals can be broken down into two main categories: BFS and DFS. Each of them
+                    have their different implementations and traversal orders.
+                    <br>
+                    </br>
+                    <br>
+                    </br>
+                    <ul>
+                      <li>Depth-First Search</li>
+                      <li className="list-unstyled">
+                        <ul>
+                          <li>Pre-Order Traversal</li>
+                          <li>In-Order Traversal</li>
+                          <li>Post-Order Traversal</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>Breadth-First Search</li>
+                      <li className="list-unstyled">
+                        <ul>
+                          <li>Level-Order Traversal</li>
+                        </ul>
+                      </li>
+                    </ul>
                   </p>
+                </blockquote>
                 </CardHeader>
-                <CardBody className="all-icons">
-                </CardBody>
               </Card>
             </Col>
           </Row>

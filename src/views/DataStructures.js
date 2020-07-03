@@ -29,14 +29,27 @@ class DataStructures extends React.Component {
             <Col md="12">
               <Card>
                 <CardHeader>
-                  <h5 className="title">100 Awesome Nucleo Icons</h5>
-                  <p className="category">
-                    Handcrafted by our friends from{" "}
-                    <a href="https://nucleoapp.com/?ref=1712">NucleoApp</a>
-                  </p>
+                  <h4 className="text-success">Data Structures</h4>
+                  <blockquote>
+                    <p className="blockquote">
+                      A data structure is a specific way of organizing and storing data
+                      so that it can be used efficently in different situations. Each structure
+                      has it's benefits and uses, and we'll go over some of the most common ones
+                      in terms of:
+                      <br>
+                      </br>
+                      <br>
+                      </br>
+                      <ul>
+                      <li>Implementation</li>
+                      <li>Operations</li>
+                      <li>Space/Time Complexity</li>
+                      <li>Benefits and Downfalls</li>
+                      <li>Examples and Alternatives</li>
+                      </ul>
+                    </p>
+                  </blockquote>
                 </CardHeader>
-                <CardBody className="all-icons">
-                </CardBody>
               </Card>
             </Col>
           </Row>
