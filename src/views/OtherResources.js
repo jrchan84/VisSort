@@ -70,6 +70,23 @@ class OtherResources extends React.Component {
           <Row>
             <Col md="12">
               <Card>
+                <CardHeader>
+                <h4 className="text-info">Links to Other Resources</h4>
+                <blockquote>
+                  <p className="blockquote">
+                    We've compiled some additional useful links to learn more and practice the topics covered on this site.
+                    Keep on learning!
+                  </p>
+                </blockquote>
+                </CardHeader>
+              </Card>
+            </Col>
+          </Row>
+        </div>
+        <div className="content">
+          <Row>
+            <Col md="12">
+              <Card>
                 <CardHeader className="mb-5">
                   <h5 className="card-category">Black Table Heading</h5>
                   <CardTitle tag="h3">

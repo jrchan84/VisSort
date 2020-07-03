@@ -42,7 +42,7 @@ class TreeTraversals extends React.Component {
                     <br>
                     </br>
                     <ul>
-                      <li>Depth-First Search</li>
+                      <li className="text-warning">Depth-First Search</li>
                       <li className="list-unstyled">
                         <ul>
                           <li>Pre-Order Traversal</li>
@@ -52,7 +52,7 @@ class TreeTraversals extends React.Component {
                       </li>
                     </ul>
                     <ul>
-                      <li>Breadth-First Search</li>
+                      <li className="text-warning">Breadth-First Search</li>
                       <li className="list-unstyled">
                         <ul>
                           <li>Level-Order Traversal</li>

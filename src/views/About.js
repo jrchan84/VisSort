@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Card, CardBody, Row, Col } from "reactstrap";
+import { Card, CardBody, Row, Col, Button, CardDeck } from "reactstrap";
 
 class About extends React.Component {
   render() {
@@ -26,7 +26,7 @@ class About extends React.Component {
       <>
         <div className="content">
           <Row>
-            <Col md="12">
+            <Col>
               <Card>
                 <CardBody>
                   <div className="typography-line">
@@ -113,59 +113,65 @@ class About extends React.Component {
                       </li>
                     </ul>
                   </div>
-                  <br>
-                  </br>
-                  <br>
-                  </br>
-                  <div className="typography-line">
-                  <h5 className="text-info">
-                    Before you dive in, here's my favourite programming meme :D
-                  </h5>
-                  <img
-                    className="img-fluid"
-                    alt=""
-                    src={require("assets/img/codeMeme.png")}
-                  />
-                  </div>
-                  <br>
-                  </br>
-                  <br>
-                  </br>
-                  <div className="typography-line">
-                    <span>Resources and Licensing</span>
-                    <p>
-                    This react app was built using <span> <a href="https://www.creative-tim.com/product/black-dashboard-react" target="_blank" rel="noopener noreferrer" className="text-info" >Creative Tim's Black Dashboard - React Template</a> </span> and my own DSA code.
-                    <br>
-                    </br>
-                    You'll find license details in the project folder along with links to original sources.
-                    <br>
-                    </br>
-                    If you have any questions or would like to contribute to this page, visit my site for contact details <span> <a href="https://jrchan.ca/" target="_blank" rel="noopener noreferrer" className="text-info">Jrchan.ca</a> </span>
-                    </p>
-                    <br>
-                    </br>
-                  </div>
-                  <div className="typography-line">
-                    <span>Source Code</span>
-                    <p>
-                      Head over to my <span> <a href="https://github.com/jrchan84/VisSort" target="_blank" rel="noopener noreferrer" className="text-info">repository</a> </span> if you'd like to play around with the template and code.
-                    </p>
-                    <ol>
-                      <li>Download the zip and export it to your working directory.</li>
-                      <li>Open up your command-line and make sure you have recent versions of Node.js and npm installed</li>
-                      <li><code> cd #project-path-here# </code></li>
-                      <li><code> npm install </code></li>
-                      <li><code> npm start </code></li>
-                    </ol>
-                    <p>
-                      A browser window should open and your app will display. Happy Coding!
-                      <br>
-                      </br>
-                      Oh, and click <span> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" className="text-info">this</a> </span> if you want to ace your next exam.
-                    </p>
-                  </div>
                 </CardBody>
               </Card>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <CardDeck>
+                <Card>
+                  <CardBody>
+                    <div className="typography-line">
+                      <span>Resources and Licensing</span>
+                      <p>
+                      This react app was built using <span> <a href="https://www.creative-tim.com/product/black-dashboard-react" target="_blank" rel="noopener noreferrer" className="text-info" >Creative Tim's Black Dashboard - React Template</a> </span> and my own DSA code.
+                      <br>
+                      </br>
+                      <br>
+                      </br>
+                      You'll find license details in the project folder along with links to original sources.
+                      <br>
+                      </br>
+                      If you have any questions or would like to contribute to this page, visit my site for contact details <span> <a href="https://jrchan.ca/" target="_blank" rel="noopener noreferrer" className="text-info">Jrchan.ca</a> </span>
+                      </p>
+                      <br>
+                      </br>
+                    </div>
+                    <div className="typography-line">
+                      <span>Source Code</span>
+                      <p>
+                        Head over to my <span> <a href="https://github.com/jrchan84/VisSort" target="_blank" rel="noopener noreferrer" className="text-info">repository</a> </span> if you'd like to play around with the template and code.
+                      </p>
+                      <ol>
+                        <li>Download the zip and export it to your working directory.</li>
+                        <li>Open up your command-line and make sure you have recent versions of Node.js and npm installed</li>
+                        <li><code> cd #project-path-here# </code></li>
+                        <li><code> npm install </code></li>
+                        <li><code> npm start </code></li>
+                      </ol>
+                      <p>
+                        A browser window should open and your app will display. Happy Coding!
+                      </p>
+                    </div>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                  <div className="typography-line" style={{textAlign: "center"}}>
+                    <h5 className="text-info">
+                      Before you dive in, here's my favourite programming meme :D
+                    </h5>
+                    <img
+                      className="img-fluid"
+                      style={{width: "450px"}}
+                      alt=""
+                      src={require("assets/img/codeMeme.png")}
+                    />
+                  </div>
+                  </CardBody>
+                </Card>
+              </CardDeck>
             </Col>
           </Row>
         </div>

@@ -40,9 +40,10 @@ class PathFindingAlgorithms extends React.Component {
                 <h4 className="text-danger">Path Finding Algorithms</h4>
                 <blockquote>
                   <p className="blockquote">
-                    Sorting algorithms are typically used to transform data in a list or array to a preferred order to be used later.
-                    For example, programmers often sort a list to optimize the efficency of other algorithms such as search or merge.
-                    We'll go over what each sort looks visually and their respective running times and applications.
+                    Simply put, path finding algorithms finds the shortest route between two points. Specifically, it searches a graph
+                    by exporing adjacent vertices until the destination is reached, finding the cheapest route. The examples below are popular
+                    "pathfinding" algorithms, but they do differ from our definition in various ways. For example, Prim's algorithm returns a minimum spanning tree.
+                    We'll explore them through visualizing how they work, their underlying implementation, and efficiency
                     <br>
                     </br>
                     <br>

@@ -47,18 +47,18 @@ class SortingAlgorithms extends React.Component {
                   <p className="blockquote">
                     Sorting algorithms are typically used to transform data in a list or array to a preferred order to be used later.
                     For example, programmers often sort a list to optimize the efficency of other algorithms such as search or merge.
-                    We'll go over what each sort looks visually and their respective running times and applications.
+                    We'll go over what each sort looks like visually and their respective running times and applications.
                     <br>
                     </br>
                     <br>
                     </br>
                     <ul className="list-inline">
-                      <li className="list-inline-item" style={{marginRight: 30}}>Selection</li>
-                      <li className="list-inline-item" style={{marginRight: 30}}>Bubble</li>
-                      <li className="list-inline-item" style={{marginRight: 30}}>Insertion</li>
-                      <li className="list-inline-item" style={{marginRight: 30}}>Merge</li>
-                      <li className="list-inline-item" style={{marginRight: 30}}>Quick</li>
-                      <li className="list-inline-item" style={{marginRight: 30}}>Heap</li>
+                      <li className="list-inline-item text-primary" style={{marginRight: 30}}>Selection</li>
+                      <li className="list-inline-item text-primary" style={{marginRight: 30}}>Bubble</li>
+                      <li className="list-inline-item text-primary" style={{marginRight: 30}}>Insertion</li>
+                      <li className="list-inline-item text-primary" style={{marginRight: 30}}>Merge</li>
+                      <li className="list-inline-item text-primary" style={{marginRight: 30}}>Quick</li>
+                      <li className="list-inline-item text-primary" style={{marginRight: 30}}>Heap</li>
                     </ul>
                   </p>
                 </blockquote>
