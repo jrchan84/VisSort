@@ -1,4 +1,7 @@
-<img src="https://github.com/jrchan84/VisSort/blob/master/src/assets/img/react-logo.png" alt="logo" width="30"/> # VisSort
+<p float="left">
+<img src="https://github.com/jrchan84/VisSort/blob/master/src/assets/img/react-logo.png" alt="logo" width="30"/>
+# VisSort
+</p>
 
 This is a passion project of mine to develop my frontend skills and revisit DSA topics I've learned in the past. Hopefully current UBC CPSC221 students and others will find it helpful :D
 
