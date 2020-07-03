@@ -1,8 +1,9 @@
 # VisSort
 
-This is a passion project of mine to develop my frontend skills and revisit DSA topics I've learned in the past. Hopefully current UBC CPSC221 students and others will find it helpful :D\\
+This is a passion project of mine to develop my frontend skills and revisit DSA topics I've learned in the past. Hopefully current UBC CPSC221 students and others will find it helpful :D
 
-
+<br>
+</br>
 
 
 This React App was created with Creative Tim's Black Dashboard React template. The following is an excerpt from the original template's README.
