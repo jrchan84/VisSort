@@ -1,5 +1,4 @@
-# VisSort
-![Image of react-logo](https://jrchan84.github.com/VisSort/blob/master/src/assets/img/react-logo.png)
+# VisSort ![Image of react-logo](https://jrchan84.github.com/VisSort/src/assets/img/react-logo.png)
 
 This is a passion project of mine to develop my frontend skills and revisit DSA topics I've learned in the past. Hopefully current UBC CPSC221 students and others will find it helpful :D
 
