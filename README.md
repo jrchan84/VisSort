@@ -1,6 +1,6 @@
 # VisSort
 
-This is a passion project of mine to develop my frontend skills and revisit DSA topics I've learned in the past. Hopefully current UBC CPSC221 students and others will find it helpful :D
+This is a passion project of mine to develop my frontend skills and revisit DSA topics I've learned in the past. Hopefully current UBC CPSC221 students and others will find it helpful :D\\
 
 
 
