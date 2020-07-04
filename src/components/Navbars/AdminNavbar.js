@@ -39,18 +39,36 @@ class AdminNavbar extends React.Component {
   componentWillUnmount() {
     window.removeEventListener("resize", this.updateColor);
   }
+ // this function opens and closes the collapse on small devices
+ toggleCollapse = () => {
+   if (this.state.collapseOpen) {
+     this.setState({
+       color: "navbar-transparent"
+     });
+   } else {
+     this.setState({
+       color: "bg-white"
+     });
+   }
+   this.setState({
+     collapseOpen: !this.state.collapseOpen
+   });
+ };
 
   render() {
     return (
       <>
-        <Navbar
-          className={classNames("navbar-absolute", this.state.color)}
-          expand="lg"
-        >
+        <Navbar className={classNames("navbar-absolute", this.state.color)} expand="lg">
           <Container fluid>
             <div className="navbar-wrapper">
-              <NavbarBrand href="#pablo" onClick={e => e.preventDefault()}>
-                {this.props.brandText}
+              <div className={classNames("navbar-toggle d-inline", {toggled: this.props.sidebarOpened})}>
+                <button className="navbar-toggler" type="button" onClick={this.props.toggleSidebar}>
+                  <span className="navbar-toggler-bar bar1" />
+                  <span className="navbar-toggler-bar bar2" />
+                  <span className="navbar-toggler-bar bar3" />
+                </button>
+              </div>
+              <NavbarBrand href="#pablo" onClick={e => e.preventDefault()}>{this.props.brandText}
               </NavbarBrand>
             </div>
           </Container>

@@ -32,6 +32,11 @@ import logo from "assets/img/react-logo.png";
 
 var ps;
 
+// <FixedPlugin
+//   bgColor={this.state.backgroundColor}
+//   handleBgClick={this.handleBgClick}
+// />
+
 class Admin extends React.Component {
   constructor(props) {
     super(props);
@@ -140,10 +145,6 @@ class Admin extends React.Component {
             <Footer fluid/>
           </div>
         </div>
-        <FixedPlugin
-          bgColor={this.state.backgroundColor}
-          handleBgClick={this.handleBgClick}
-        />
       </>
     );
   }
